@@ -1,0 +1,17 @@
+.button {
+  background-color: $clr-yellow;
+  color: $clr-gray;
+  font-family: ("Karla"), sans-serif;
+  font-size: 1.1rem;
+  font-weight: $fw-bold;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-top: 2rem;
+  border: none;
+  box-shadow: 0 3px 10px darken($clr-cyan, 10%);
+  &:hover {
+      background-color: darken($clr-yellow, 7%);
+      cursor: pointer;
+  }
+}

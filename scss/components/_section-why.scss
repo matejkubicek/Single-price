@@ -1,0 +1,10 @@
+.section-why {
+  background-color: lighten($clr-cyan, 5%);
+  color: $clr-gray;
+  padding: 2rem;
+}
+
+.section-why__list {
+  color: lighten($color: $clr-cyan, $amount: 40%);
+  font-size: 0.9rem;
+}

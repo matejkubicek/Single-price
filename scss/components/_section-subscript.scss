@@ -1,0 +1,21 @@
+.section-subscript {
+  background-color: $clr-cyan;
+  color: $clr-gray;
+  padding: 2rem;
+}
+
+.section-subscript__price {
+  color: lighten($clr-cyan, 20%);
+  & span {
+    color: $clr-gray;
+    font-size: 2rem;
+    font-weight: $fw-bold;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+  }
+}
+
+.section-subscript__access {
+  color: lighten($color: $clr-cyan, $amount: 40%);
+  font-size: 1.1rem;
+}
