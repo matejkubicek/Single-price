@@ -9,3 +9,19 @@
 .section-join__subheading {
   color: $clr-yellow;
 }
+
+@media only screen and (min-width: 750px) {
+  .section-join {
+    grid-column: 1 / 3;
+    font-size: 1.5rem;
+    padding: 5rem;
+    align-self: center;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .section-join {
+    font-size: 2rem;
+    padding: 8rem;
+  }
+}

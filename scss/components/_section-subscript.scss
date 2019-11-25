@@ -8,7 +8,7 @@
   color: lighten($clr-cyan, 20%);
   & span {
     color: $clr-gray;
-    font-size: 2rem;
+    font-size: 2em;
     font-weight: $fw-bold;
     margin-right: 0.5rem;
     vertical-align: middle;
@@ -17,5 +17,20 @@
 
 .section-subscript__access {
   color: lighten($color: $clr-cyan, $amount: 40%);
-  font-size: 1.1rem;
+  font-size: 1em;
+}
+
+@media only screen and (min-width: 750px) {
+  .section-subscript {
+    grid-column: 1 / 2;
+    font-size: 1.5rem;
+    padding: 5rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .section-subscript {
+    font-size: 2rem;
+    padding: 8rem;
+  }
 }
