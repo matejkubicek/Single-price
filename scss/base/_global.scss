@@ -1,7 +1,27 @@
+body {
+  background-color: $clr-gray;
+}
+
+.container {
+  background-color: #fff;
+  width: 80%;
+  margin: 20% auto;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px darken($clr-gray, 10%), -3px -3px 10px darken($clr-gray, 10%);
+}
+
 @media only screen and (min-width: 750px) {
-  body {
+  .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    width: 70%;
+    margin: 20% auto;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 50%;
+    margin: 20% auto;
   }
 }

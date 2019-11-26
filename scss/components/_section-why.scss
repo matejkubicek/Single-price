@@ -2,6 +2,7 @@
   background-color: lighten($clr-cyan, 5%);
   color: $clr-gray;
   padding: 2rem;
+  border-radius: 0 0 10px 10px;
 }
 
 .section-why__list {
@@ -12,14 +13,6 @@
 @media only screen and (min-width: 750px) {
   .section-why {
     grid-column: 2 / 3;
-    font-size: 1.5rem;
-    padding: 5rem;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .section-why {
-    font-size: 2rem;
-    padding: 8rem;
+    border-radius: 0 0 10px 0;
   }
 }
